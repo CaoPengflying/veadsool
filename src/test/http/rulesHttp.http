@@ -1,0 +1,17 @@
+### 列表
+GET {{url}}/rules/list?ruleType=1
+Content-Type: application/json
+
+
+
+###修改
+POST {{url}}/grade/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "gradeNo": "A12012",
+  "gradeName": "计算机科学与技术1班"
+}
+
+###

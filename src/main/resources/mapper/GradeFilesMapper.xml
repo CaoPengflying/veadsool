@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cpf.veadsool.mapper.GradeFilesMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cpf.veadsool.entity.GradeFiles">
+    <result column="id" property="id" />
+    <result column="create_user" property="createUser" />
+    <result column="create_time" property="createTime" />
+    <result column="update_user" property="updateUser" />
+    <result column="update_time" property="updateTime" />
+        <result column="grade_id" property="gradeId" />
+        <result column="ave_score" property="aveScore" />
+        <result column="max_score" property="maxScore" />
+        <result column="min_score" property="minScore" />
+        <result column="great_count" property="greatCount" />
+        <result column="bad_count" property="badCount" />
+    </resultMap>
+
+</mapper>

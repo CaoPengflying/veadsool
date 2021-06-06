@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cpf.veadsool.mapper.CalcRuleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cpf.veadsool.entity.CalcRule">
+    <result column="id" property="id" />
+    <result column="create_user" property="createUser" />
+    <result column="create_time" property="createTime" />
+    <result column="update_user" property="updateUser" />
+    <result column="update_time" property="updateTime" />
+        <result column="rule_name" property="ruleName" />
+        <result column="culture_prop" property="cultureProp" />
+        <result column="attendance_prop" property="attendanceProp" />
+        <result column="other_prop" property="otherProp" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        create_user,
+        create_time,
+        update_user,
+        update_time,
+        rule_name, culture_prop, attendance_prop, other_prop
+    </sql>
+
+</mapper>

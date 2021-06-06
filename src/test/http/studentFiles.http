@@ -1,0 +1,22 @@
+### 列表
+POST {{url}}/studentFiles/create
+Content-Type: application/json
+
+{
+  "studentId": 1,
+  "culturalSubjectScore": 200
+}
+
+
+
+###修改
+POST {{url}}/grade/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "gradeNo": "A12012",
+  "gradeName": "计算机科学与技术1班"
+}
+
+###
